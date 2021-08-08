@@ -12,7 +12,10 @@
 <body>
     <div class="container">
         <h1>Is your birthday lucky? 🥳</h1>
-        <p class="notice">Privacy Notice! We are not storing your data</p>
+        <div class="div-notice">
+            <p class="small-text"><button class="btn-close">X</button></p>
+            <p class="notice">Privacy Notice! We are not storing your data</p>
+        </div>
         <h3>Enter Your Birthdate and lucky number to continue...</h3>
         <label for="date-input">Enter your birthdate:</label><br>
         <input type="date" id="date-input"><br><br>
@@ -21,11 +24,24 @@
         <button id="btn-check">Check</button><br><br>
         <div id="checkoutput"></div><br><br>
         <img src="">
-        <footer>
-
-        </footer>
     </div>
-
+    <footer>
+        <ul>
+            <li><a href="https://github.com/muskaanshah" target="_blank"><img class="img-icon"
+                        src="https://img.icons8.com/material-outlined/24/ffffff/github.png" /></a></li>
+            <li><a href="https://twitter.com/Shahmuskaan19" target="_blank"><img class="img-icon"
+                        src="https://img.icons8.com/ios-glyphs/30/ffffff/twitter--v1.png" /></a></li>
+            <li><a href="https://www.linkedin.com/in/muskaan-shah-a92643198/" target="_blank"><img class="img-icon"
+                        src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png" /></a></li>
+            <li><a href="https://muskaanshah.netlify.app/index.html" target="_blank"><img class="img-icon"
+                        src="https://img.icons8.com/ios/50/ffffff/domain.png" /></a></li>
+        </ul><br><br>
+        <ul>
+            <li style="color: var(--secondary-color); padding: 0% 0.5%;">© 2020 | Muskaan Shah</li>
+            <li style="font-size: 100%; color: var(--secondary-color);"><button class="btn-open">Privacy notice</button>
+            </li>
+        </ul>
+    </footer>
     <script src="app.js"></script>
 </body>
 

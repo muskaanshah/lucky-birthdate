@@ -4,7 +4,13 @@ var btncheck = document.querySelector("#btn-check");
 var outputdiv = document.querySelector("#checkoutput");
 var imgtag = document.querySelector("img");
 
+var btnclose = document.querySelector(".btn-close");
+var btnopen = document.querySelector(".btn-open");
+var notice = document.querySelector(".div-notice");
+
 btncheck.addEventListener("click",validate);
+btnclose.addEventListener("click", closenotice);
+btnopen.addEventListener("click", opennotice);
 
 function validate() {
     outputdiv.style.display = "none";
@@ -35,4 +41,12 @@ function validate() {
             imgtag.src = "images/error.svg";
         }
     }
+}
+
+function closenotice () {
+    notice.style.display = "none";
+}
+
+function opennotice () {
+    notice.style.display = "block";
 }
