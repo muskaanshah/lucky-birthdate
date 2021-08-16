@@ -128,3 +128,7 @@ li {
 .btn-open:hover {
 	cursor: pointer;
 }
+
+button {
+	font-family: "Quicksand", sans-serif;
+}
